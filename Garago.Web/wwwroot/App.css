@@ -1,0 +1,162 @@
+
+/* @import '~antd/dist/antd.css'; */
+@media (max-width: 560px) {
+    .main-nav {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    
+    .nav-item {
+        cursor: pointer;
+        justify-content: center;
+        width: 80% !important;
+        margin: 5px;
+        flex-basis: 50px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .nav-item:first-child > svg {
+        margin-right: 4.75em;
+    }
+    
+    .nav-item > svg {
+        margin-right: 1.5em;
+    }
+    
+    /*Pane*/
+
+    .pane {
+        flex-basis: 600px;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 100%;
+    }
+
+    #garage-sale-title {
+        font-size: unset;
+    }
+
+    #garage-sale-subtitle {
+        font-size: unset;
+    }
+    
+    .login-form {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    
+    .form-modal {
+        width: 80%;
+        padding: 0 10px 10px 10px;
+    }
+
+    .form-input {
+        margin: 10px 10px 10px 0;
+    }
+}
+
+.main-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-item {
+    background-color: rgba(125,76,219,1);
+    color: #f8f8f8;
+    border: solid 1px #FFFFFF;
+}
+
+.nav-item:hover {
+    background-color: #f8f8f8;
+    color: rgba(125,76,219,1);
+    animation: dVaADA 1s 0s alternate infinite;
+}
+
+.nav-item:hover > svg {
+    stroke:  rgba(125,76,219,1);
+}
+
+.active.nav-item {
+    background-color: #f8f8f8;
+    color: rgba(125,76,219,1);
+    animation: dVaADA 1s 0s alternate infinite;
+}
+
+.active.nav-item > svg {
+    stroke:  rgba(125,76,219,1);
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#first-pane {
+    background: content-box;
+    background-image:  url("./assets/GaragoFirstPane.svg");
+    background-blend-mode: darken;
+    background-size: cover;
+    /* padding: 200px; */
+    width: 100%;
+    flex-basis: 1000px;
+    stroke-width: 100%;
+    stroke-opacity: 0.7;
+    /* height: 1600px; */
+}
+
+#garage-sale-carousel-image {
+    height: 300px !important;
+    width: 400px;
+}
+
+#garage-sale-title {
+    font-size: 30px;
+}
+
+#garage-sale-subtitle {
+    font-size: 30px;
+}
+
+#distribution-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-modal {
+    width: 30%;
+    padding: 20px 50px 50px 50px;
+}
+
+.form-input {
+    margin: 20px 20px 20px 0;
+}
+
+.social-media-button {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+.submit-button {
+    padding: 10px;
+    width: 40%;
+}

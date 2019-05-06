@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garago.Web", "Garago.Web\Garago.Web.csproj", "{88852C77-7C4B-463C-AC2A-3E73FB5DDE57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garago.Web", "Garago.Web\Garago.Web.csproj", "{88852C77-7C4B-463C-AC2A-3E73FB5DDE57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garago.Data", "Garago.Data\Garago.Data.csproj", "{71B584E1-5BCA-4DC5-9672-BE6DA7EEBE5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garago.Domain", "Garago.Domain\Garago.Domain.csproj", "{59D3BA45-B6FF-4259-A7C0-A3B015E42E75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garago.Services", "Garago.Services\Garago.Services.csproj", "{D66FFD78-B102-491C-A59C-74FA0DA6C2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garago.Instructure", "Garago.Instructure\Garago.Instructure.csproj", "{EC57B869-7452-44E5-915E-A4E70271CCEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{88852C77-7C4B-463C-AC2A-3E73FB5DDE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88852C77-7C4B-463C-AC2A-3E73FB5DDE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88852C77-7C4B-463C-AC2A-3E73FB5DDE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B584E1-5BCA-4DC5-9672-BE6DA7EEBE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B584E1-5BCA-4DC5-9672-BE6DA7EEBE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B584E1-5BCA-4DC5-9672-BE6DA7EEBE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B584E1-5BCA-4DC5-9672-BE6DA7EEBE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D3BA45-B6FF-4259-A7C0-A3B015E42E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D3BA45-B6FF-4259-A7C0-A3B015E42E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D3BA45-B6FF-4259-A7C0-A3B015E42E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D3BA45-B6FF-4259-A7C0-A3B015E42E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66FFD78-B102-491C-A59C-74FA0DA6C2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66FFD78-B102-491C-A59C-74FA0DA6C2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66FFD78-B102-491C-A59C-74FA0DA6C2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66FFD78-B102-491C-A59C-74FA0DA6C2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC57B869-7452-44E5-915E-A4E70271CCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC57B869-7452-44E5-915E-A4E70271CCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC57B869-7452-44E5-915E-A4E70271CCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC57B869-7452-44E5-915E-A4E70271CCEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
